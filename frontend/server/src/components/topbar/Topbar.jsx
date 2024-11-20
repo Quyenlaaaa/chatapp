@@ -1,6 +1,6 @@
 import React from "react";
 import "./topbar.css";
-import { Language, Settings, Logout } from '@mui/icons-material';
+import { Settings, Logout } from '@mui/icons-material';
 
 export default function Topbar() {
   return (

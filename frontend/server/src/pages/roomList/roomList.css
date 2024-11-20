@@ -19,13 +19,13 @@
     border: none;
     border-radius: 10px;
     padding: 5px 10px;
-    background-color: #3bb077;
+    background-color: #323cab;
     color: white;
     cursor: pointer;
     margin-right: 20px;
 }
 
 .productListDelete{
-    color: red;
+    color: rgb(0, 0, 0);
     cursor: pointer;
 }

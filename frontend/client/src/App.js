@@ -20,11 +20,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Navigate to="/login" replace />} />
         <Route path="/home" element={
-          <>
-            <SidebarMenu />
-            <Sidebar />
-            <ChatWindow />
-          </>
+          <div className="flex h-full w-full">
+            <SidebarMenu className="h-full" />
+            <Sidebar className="h-full" />
+            <ChatWindow className="h-full" />
+          </div>
         } />
         <Route path="/login" element={<Form isSignInPage={true} />} />
         <Route path="/signup" element={<Form isSignInPage={false} />} />

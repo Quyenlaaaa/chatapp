@@ -27,15 +27,15 @@ export default function RoomList() {
         );
       },
     },
-    { field: "stock", headerName: "Stock", width: 200 },
+    { field: "Moderate ID", headerName: "Moderate ID", width: 200 },
     {
       field: "status",
       headerName: "Status",
       width: 120,
     },
     {
-      field: "price",
-      headerName: "Price",
+      field: "number",
+      headerName: "Number",
       width: 160,
     },
     {
@@ -56,6 +56,7 @@ export default function RoomList() {
         );
       },
     },
+    
   ];
 
   return (
